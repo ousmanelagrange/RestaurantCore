@@ -1,0 +1,36 @@
+# Ignore les fichiers générés par l'environnement virtuel Python
+env/
+
+# Ignore les fichiers générés par Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+media/
+
+# Ignore les fichiers générés par Node.js
+node_modules/
+next/
+out/
+
+# Ignore les fichiers générés par npm
+package-lock.json
+yarn.lock
+
+# Ignore les fichiers de configuration
+*.env
+*.env.local
+
+# Ignore les fichiers de logs
+*.log
+
+# Ignore les fichiers de cache
+.cache/
+
+# Ignore les fichiers de compilation
+*.pyc
+*.pyo
+
+# Ignore les fichiers de gestion des dépendances
+pipfile.lock
